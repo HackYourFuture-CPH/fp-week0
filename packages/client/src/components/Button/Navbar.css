@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.cdnfonts.com/css/montserrat');
 * {
   margin: 0;
   padding: 0;
@@ -20,15 +22,16 @@
 .top-nav {
   margin: auto;
   display: flex;
-  width: 60%;
-  justify-content: space-between;
+  width: 70%;
+  justify-content: space-around;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
 }
 
 .bottom-nav {
   margin: auto;
-  width: 60%;
+  padding-top: 15px;
+  width: 70%;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
 }
@@ -38,7 +41,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 49px;
+  line-height: 52px;
   letter-spacing: -0.02em;
   text-shadow: 2px 2px 4px #000000;
 }
@@ -51,8 +54,11 @@
   font-weight: 400;
   font-size: 26px;
 }
-.navbar-ul li,
+.navbar-ul li {
+  list-style: none;
+  padding: 10px 50px;
+}
 .top-nav ul li {
   list-style: none;
-  padding: 10px;
+  padding: 10px 25px;
 }
