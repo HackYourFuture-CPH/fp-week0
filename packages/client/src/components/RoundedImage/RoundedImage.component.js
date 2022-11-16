@@ -1,8 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './RoundedImage.styles.css';
 
 export const RoundedImage = ({ src, alt, ...props }) => {
-  return <img src={src} alt={alt} width={80} height={80} />;
+  return (
+    <img className="rounded-image" src={src} alt={alt} width={80} height={80} />
+  );
 };
 
 RoundedImage.propTypes = {
