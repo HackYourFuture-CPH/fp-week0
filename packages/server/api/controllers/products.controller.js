@@ -5,8 +5,18 @@ const getProducts = async () => {
 };
 
 // const createProduct = async (body) => {};
+const createProduct = async (body) => {
+  await knex('products').insert({
+    name: body.name,
+    description: body.description,
+  });
+
+  return {
+    successful: true,
+  };
+};
 
 module.exports = {
   getProducts,
-  // createProduct
+  createProduct,
 };
