@@ -2,7 +2,7 @@ import React from 'react';
 import './LandingPage.Style.css';
 import { ProductsList } from './ProductsList';
 import { products } from './Products';
-import Navbar from '../../components/Button/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 
 export const LandingPage = () => {
   return (

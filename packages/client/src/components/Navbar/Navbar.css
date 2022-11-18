@@ -22,16 +22,13 @@
 .top-nav {
   margin: auto;
   display: flex;
-  width: 70%;
   justify-content: space-around;
   color: #ffffff;
   text-shadow: 2px 2px 4px #000000;
 }
-
 .bottom-nav {
   margin: auto;
   padding-top: 15px;
-  width: 70%;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
 }
